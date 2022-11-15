@@ -1,0 +1,22 @@
+{
+    "auto":[
+    {
+        "id":1,
+        "tipus":"BMW",
+        "darabszam":30,
+        "ar":101010
+    },
+    {
+        "id":2,
+        "tipus":"Opel",
+        "darabszam":20,
+        "ar":2020
+    },
+    {
+        "id":3,
+        "tipus":"Audi",
+        "darabszam":35,
+        "ar":111111
+    }
+    ]
+}

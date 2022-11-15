@@ -1,0 +1,35 @@
+.doboz{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+.doboz>button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+}
+
+@media only screen and (max-width: 650px) {
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+}
