@@ -26,10 +26,22 @@ main{
     main{
         grid-template-columns: 1fr 1fr;
     }
+    .doboz{
+        font-size: medium;
+    }
+    .doboz>button{
+        font-size: medium;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     main{
         grid-template-columns: 1fr;
+    }
+    .doboz{
+        font-size: large;
+    }
+    .doboz>button{
+        font-size: large;
     }
 }
